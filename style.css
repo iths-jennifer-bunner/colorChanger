@@ -1,0 +1,49 @@
+body{
+    margin: auto;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    background: -webkit-linear-gradient( rgb(6, 245, 6),rgb(233, 39, 136));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 5px white;
+} 
+.hidden{ 
+    display: none;
+}
+.placeforinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+li.select{
+    display: none;
+    
+}
+p.error{
+    color: red;
+    
+
+}
+li p{
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    width: 160px;
+    padding-left: 0;
+}
